@@ -1,0 +1,22 @@
+# Maven
+target/
+
+# Logs
+logs/
+*.log
+
+# Eclipse
+.classpath
+.project
+.settings/
+.metadata/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+logs/
+target/
+*.log

@@ -1,0 +1,127 @@
+# ============================================================
+# Java / Maven
+# ============================================================
+
+# Maven build output - applies to every microservice
+**/target/
+
+# Compiled Java
+*.class
+
+# Maven generated files
+**/dependency-reduced-pom.xml
+
+
+# ============================================================
+# Spring Boot / Application Configuration
+# ============================================================
+
+# Environment-specific Spring configuration
+**/application.properties
+**/application.yml
+**/application.yaml
+
+# Spring profile-specific configuration
+**/application-*.properties
+**/application-*.yml
+**/application-*.yaml
+
+# Environment files
+.env
+.env.*
+**/.env
+**/.env.*
+
+# Keep example configuration files
+!.env.example
+!**/.env.example
+
+!application-example.properties
+!application-example.yml
+!application-example.yaml
+!**/application-example.properties
+!**/application-example.yml
+!**/application-example.yaml
+
+
+# ============================================================
+# Secrets / Credentials / Certificates
+# ============================================================
+
+# Java keystores
+*.jks
+*.keystore
+*.p12
+*.pfx
+
+# Private keys / certificates
+*.key
+*.pem
+
+# NOTE:
+# Don't commit files containing:
+# passwords, API keys, tokens, client secrets, DB credentials, etc.
+
+
+# ============================================================
+# Logs
+# ============================================================
+
+**/logs/
+*.log
+
+
+# ============================================================
+# Eclipse
+# ============================================================
+
+.classpath
+.project
+.settings/
+.metadata/
+
+
+# ============================================================
+# IntelliJ IDEA
+# ============================================================
+
+.idea/
+*.iml
+*.iws
+*.ipr
+
+
+# ============================================================
+# VS Code
+# ============================================================
+
+.vscode/
+
+
+# ============================================================
+# OS
+# ============================================================
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+
+# ============================================================
+# Temporary / Backup files
+# ============================================================
+
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+*.bak
+
+
+# ============================================================
+# Spring / Java generated files
+# ============================================================
+
+hs_err_pid*
+replay_pid*
